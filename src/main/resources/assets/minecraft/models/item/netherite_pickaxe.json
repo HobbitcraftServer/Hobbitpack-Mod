@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/netherite_pickaxe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 98}, "model": "player_items:item/tuby_pick"},
+		{"predicate": {"custom_model_data": 102}, "model": "player_items:item/nollid_pick"},
+		{"predicate": {"custom_model_data": 1645}, "model": "custom_end_items:item/amethyst_pickaxe"}
+	]
+}
+

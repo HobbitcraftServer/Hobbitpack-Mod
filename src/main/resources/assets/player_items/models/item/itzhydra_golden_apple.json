@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "player_items:item/itzhydra_golden_apple"
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/netherite_sword"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 13}, "model": "player_items:item/pika_blade"},
+		{"predicate": {"custom_model_data": 14}, "model": "player_items:item/nek_blade"},
+		{"predicate": {"custom_model_data": 68}, "model": "player_items:item/grape_sword"},
+ 		{"predicate": {"custom_model_data": 69}, "model": "player_items:item/hob_gauntlet"},
+		{"predicate": {"custom_model_data": 96}, "model": "player_items:item/luna_katana"},
+		{"predicate": {"custom_model_data": 1647}, "model": "custom_end_items:item/amethyst_sword"}
+	]
+}

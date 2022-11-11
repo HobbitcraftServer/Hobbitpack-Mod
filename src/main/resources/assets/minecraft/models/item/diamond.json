@@ -1,0 +1,12 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/diamond"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 10},  "model": "region_relics:item/marshdiamond"},
+		{"predicate": {"custom_model_data": 42},  "model": "player_items:item/jahcoin"},
+		{"predicate": {"custom_model_data": 65},  "model": "region_relics:item/lochocto"},
+		{"predicate": {"custom_model_data": 264}, "model": "player_items:item/diamond_ingot"}
+	]
+}

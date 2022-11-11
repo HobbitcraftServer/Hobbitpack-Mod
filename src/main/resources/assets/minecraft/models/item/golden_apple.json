@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+ 		"layer0": "minecraft:item/golden_apple"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 56}, "model": "player_items:item/itzhydra_golden_apple"},
+		{"predicate": {"custom_model_data": 2343}, "model": "custom_end_items:item/amethyst_apple"}
+  	]
+}

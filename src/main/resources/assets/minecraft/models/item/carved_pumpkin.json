@@ -1,0 +1,27 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"top": "minecraft:block/pumpkin_top",
+		"front": "minecraft:block/carved_pumpkin",
+		"side": "minecraft:block/pumpkin_side"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1},    "model": "hc_bday:item/partyhat"},
+		{"predicate": {"custom_model_data": 6},    "model": "player_items:item/ozzy_haloanim"},
+		{"predicate": {"custom_model_data": 7},    "model": "player_items:item/nekwither"},
+		{"predicate": {"custom_model_data": 14},   "model": "player_items:item/quest_ram"},
+		{"predicate": {"custom_model_data": 43},   "model": "player_items:item/toptophat"},
+		{"predicate": {"custom_model_data": 50},   "model": "player_items:item/cicada"},
+		{"predicate": {"custom_model_data": 51},   "model": "player_items:item/firefly"},
+		{"predicate": {"custom_model_data": 52},   "model": "player_items:item/moonworm"},
+		{"predicate": {"custom_model_data": 66},   "model": "player_items:item/penguin_hat"},
+		{"predicate": {"custom_model_data": 72},   "model": "player_items:item/bigdious_animated_head"},
+		{"predicate": {"custom_model_data": 77},   "model": "player_items:item/lich"},
+		{"predicate": {"custom_model_data": 1783}, "model": "region_relics:item/hillsrabbit"},
+		{"predicate": {"custom_model_data": 1784}, "model": "region_relics:item/horizonmirror"},
+		{"predicate": {"custom_model_data": 1785}, "model": "region_relics:item/lochocto"},
+		{"predicate": {"custom_model_data": 1786}, "model": "region_relics:item/marshdiamond"},
+		{"predicate": {"custom_model_data": 1787}, "model": "region_relics:item/peaksgoat"},
+		{"predicate": {"custom_model_data": 1788}, "model": "region_relics:item/thicketwoods"}
+	]
+}

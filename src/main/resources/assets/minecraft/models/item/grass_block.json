@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/grass_block",
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "world_swap:item/hcsmp"}
+	]
+}

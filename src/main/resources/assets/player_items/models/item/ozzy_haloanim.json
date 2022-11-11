@@ -1,0 +1,59 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [128, 128],
+	"textures": {
+		"1": "player_items:item/haloanim"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 0], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, -27],
+			"translation": [0.75, -0.25, 3.25],
+			"scale": [0.56, 0.56, 0.56]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, -27],
+			"translation": [0.75, -0.25, 3.25],
+			"scale": [0.56, 0.56, 0.56]
+		},
+		"firstperson_righthand": {
+			"rotation": [52, 0, 0],
+			"translation": [-1.75, 6.75, 6],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"firstperson_lefthand": {
+			"rotation": [52, 0, 0],
+			"translation": [-1.75, 6.75, 6],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"ground": {
+			"translation": [0, 4.25, 0]
+		},
+		"gui": {
+			"rotation": [89, 0, 0]
+		},
+		"head": {
+			"rotation": [19.35, -21.14, -26.66],
+			"translation": [11, 16, 11.25],
+			"scale": [1.46, 1.46, 1.46]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, 7.75]
+		}
+	}
+}

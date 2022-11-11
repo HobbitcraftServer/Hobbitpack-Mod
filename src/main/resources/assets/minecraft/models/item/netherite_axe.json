@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/netherite_axe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 99}, "model": "player_items:item/tuby_scythe"},
+		{"predicate": {"custom_model_data": 1643}, "model": "custom_end_items:item/frozen_axe"},
+		{"predicate": {"custom_model_data": 1644}, "model": "custom_end_items:item/amethyst_axe"}
+	]
+}
+

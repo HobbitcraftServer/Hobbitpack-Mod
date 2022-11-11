@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/netherite_hoe"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1646}, "model": "custom_end_items:item/amethyst_scythe"}
+	]
+}
+

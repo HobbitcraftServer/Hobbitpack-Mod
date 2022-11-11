@@ -1,0 +1,42 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "custom_end_items:item/amethyst_sword"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [10, -90, 55],
+			"translation": [0, 7.75, 1],
+			"scale": [1.36, 1.36, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [45.75, -90, 0],
+			"translation": [0, 7.75, 1.75],
+			"scale": [1.36, 1.36, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.63, 4.45, 0.38],
+			"scale": [1.36, 1.36, 0.8]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.63, 4.7, 0.38],
+			"scale": [1.36, 1.36, 0.8]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0],
+			"scale": [1.36, 1.36, 1]
+		},
+		"gui": {
+			"translation": [1.75, 1.75, -14],
+			"scale": [1.36, 1.36, 1.36]
+		},
+		"fixed": {
+			"translation": [1.75, 1.5, 0],
+			"scale": [1.36, 1.36, 1]
+		}
+	}
+}

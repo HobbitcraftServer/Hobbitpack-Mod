@@ -1,0 +1,7 @@
+{
+	"credit": "Made By DerpDerpling",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "player_items:item/beast_totem"
+	}
+}

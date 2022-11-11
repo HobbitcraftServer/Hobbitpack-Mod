@@ -1,0 +1,86 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 32],
+	"textures": {
+		"1": "player_items:item/firefly"
+	},
+	"elements": [
+		{
+			"from": [6, 0, 5],
+			"to": [10, 2, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 0, -3]},
+			"faces": {
+				"north": {"uv": [1.5, 8.5, 2.5, 9.5], "texture": "#1"},
+				"east": {"uv": [0, 8.5, 1.5, 9.5], "texture": "#1"},
+				"south": {"uv": [4, 8.5, 5, 9.5], "texture": "#1"},
+				"west": {"uv": [2.5, 8.5, 4, 9.5], "texture": "#1"},
+				"up": {"uv": [2.5, 8.5, 1.5, 5.5], "texture": "#1"},
+				"down": {"uv": [3.5, 5.5, 2.5, 8.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [4, 0.1, 4],
+			"to": [12, 0.1, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 0, -3]},
+			"faces": {
+				"north": {"uv": [2.5, 15.5, 4.5, 15.5], "texture": "#1"},
+				"east": {"uv": [0, 15.5, 2.5, 15.5], "texture": "#1"},
+				"south": {"uv": [7, 15.5, 9, 15.5], "texture": "#1"},
+				"west": {"uv": [4.5, 15.5, 7, 15.5], "texture": "#1"},
+				"up": {"uv": [4.5, 15.5, 2.5, 10.5], "texture": "#1"},
+				"down": {"uv": [6.5, 10.5, 4.5, 15.5], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7, 0, 4],
+			"to": [9, 1, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 0, -3]},
+			"faces": {
+				"north": {"uv": [2, 4, 2.5, 4.5], "texture": "#1"},
+				"east": {"uv": [0, 4, 2, 4.5], "texture": "#1"},
+				"south": {"uv": [4.5, 4, 5, 4.5], "texture": "#1"},
+				"west": {"uv": [2.5, 4, 4.5, 4.5], "texture": "#1"},
+				"up": {"uv": [2.5, 4, 2, 0], "texture": "#1"},
+				"down": {"uv": [3, 0, 2.5, 4], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 4, 3],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [22, -160, 0],
+			"translation": [5, 6, 0]
+		},
+		"ground": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [-1, 6, 0],
+			"scale": [1.25, 1.25, 1.25]
+		},
+		"head": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 14.5, 0]
+		},
+		"fixed": {
+			"rotation": [-90, -180, 0],
+			"translation": [0, 0, -16],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [-2, 0, -3],
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

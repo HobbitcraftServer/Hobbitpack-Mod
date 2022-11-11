@@ -1,0 +1,49 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/crossbow_standby"
+	},
+	"display": {
+        "thirdperson_righthand": {
+            "rotation": [ -90, 0, -60 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -90, 0, 30 ],
+            "translation": [ 2, 0.1, -3 ],
+            "scale": [ 0.9, 0.9, 0.9 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ -90, 0, -55 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+        },
+	"firstperson_lefthand": {
+            "rotation": [ -90, 0, 35 ],
+            "translation": [ 1.13, 3.2, 1.13],
+            "scale": [ 0.68, 0.68, 0.68 ]
+		}
+	},
+	"overrides": [
+		{"predicate": {"pulling": 1, "pull": 0.00}, "model": "item/crossbow_pulling_0"},
+		{"predicate": {"pulling": 1, "pull": 0.65}, "model": "item/crossbow_pulling_1"},
+		{"predicate": {"pulling": 1, "pull": 0.90}, "model": "item/crossbow_pulling_2"},
+		{"predicate": {"charged": 1}, "model": "item/crossbow_arrow"},
+		{"predicate": {"firework": 1}, "model": "item/crossbow_firework"},
+
+		{"predicate": {"custom_model_data": 38}, "model": "player_items:item/tian_crossbow/crossbow_standby"},
+		{"predicate": {"custom_model_data": 38, "pulling": 1, "pull": 0.00}, "model": "player_items:item/tian_crossbow/crossbow_pulling_0"},
+		{"predicate": {"custom_model_data": 38, "pulling": 1, "pull": 0.65}, "model": "player_items:item/tian_crossbow/crossbow_pulling_1"},
+		{"predicate": {"custom_model_data": 38, "pulling": 1, "pull": 0.90}, "model": "player_items:item/tian_crossbow/crossbow_pulling_2"},
+		{"predicate": {"custom_model_data": 38, "charged": 1}, "model": "player_items:item/tian_crossbow/crossbow_arrow"},
+		{"predicate": {"custom_model_data": 38, "firework": 1}, "model": "player_items:item/tian_crossbow/crossbow_firework"},
+
+		{"predicate": {"custom_model_data": 39}, "model": "player_items:item/tuby_crossbow/crossbow_standby"},
+		{"predicate": {"custom_model_data": 39, "pulling": 1, "pull": 0.00}, "model": "player_items:item/tuby_crossbow/crossbow_pulling_0"},
+		{"predicate": {"custom_model_data": 39, "pulling": 1, "pull": 0.65}, "model": "player_items:item/tuby_crossbow/crossbow_pulling_1"},
+		{"predicate": {"custom_model_data": 39, "pulling": 1, "pull": 0.90}, "model": "player_items:item/tuby_crossbow/crossbow_pulling_2"},
+		{"predicate": {"custom_model_data": 39, "charged": 1}, "model": "player_items:item/tuby_crossbow/crossbow_arrow"},
+		{"predicate": {"custom_model_data": 39, "firework": 1}, "model": "player_items:item/tuby_crossbow/crossbow_firework"}
+	]
+}

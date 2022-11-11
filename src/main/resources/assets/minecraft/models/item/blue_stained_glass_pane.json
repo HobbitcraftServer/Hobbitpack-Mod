@@ -1,0 +1,9 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:block/blue_stained_glass"
+  	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 1789}, "model": "region_relics:item/waterways_relic"}
+	]
+}

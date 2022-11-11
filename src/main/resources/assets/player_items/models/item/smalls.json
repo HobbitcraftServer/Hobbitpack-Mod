@@ -1,0 +1,50 @@
+{
+	"credit": "Made By DerpDerpling",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "player_items:item/smallssword",
+		"particle": "player_items:item/smallssword"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-177, 90, 0],
+			"translation": [0.25, 24.75, 1.25],
+			"scale": [4, 4, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-177, 90, 0],
+			"translation": [0.25, 27, 3.75],
+			"scale": [4, 4, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [7.25, 84, 154],
+			"translation": [0.13, 7.45, 1.13],
+			"scale": [1.6, 1.24, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [7.25, 84, 154],
+			"translation": [0.13, 7.45, 1.13],
+			"scale": [1.6, 1.24, 0.3]
+		},
+		"ground": {
+			"translation": [0, 25, 0],
+			"scale": [4, 4, 0.5]
+		},
+		"gui": {
+			"rotation": [180, 0, 50],
+			"translation": [0, -0.5, 0],
+			"scale": [2, 2, 0]
+		},
+		"head": {
+			"rotation": [111.95, -78.42, -165.3],
+			"translation": [8.75, -4.5, 0],
+			"scale": [4, 4, 1]
+		},
+		"fixed": {
+			"rotation": [0, 0, 90],
+			"translation": [0, 0, -1.75],
+			"scale": [2, 2, 1]
+		}
+	}
+}

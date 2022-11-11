@@ -1,0 +1,10 @@
+{
+    "toot": {
+         "sounds":[
+             {
+                 "name": "hcbday/toot",
+                 "weight": 1
+             } 
+         ]
+    }
+}

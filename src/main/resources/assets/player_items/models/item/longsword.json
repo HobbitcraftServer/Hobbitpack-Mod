@@ -1,0 +1,47 @@
+{
+	"credit": "Made By DerpDerpling",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "player_items:item/longsword"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [30, 90, 19],
+			"translation": [0, 42, 4.25],
+			"scale": [4, 4, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-41, 90, 0],
+			"translation": [0, 42, 4.25],
+			"scale": [4, 4, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-0.5, 33, -26],
+			"scale": [4, 4, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-90, 90, 0],
+			"translation": [-0.5, 33, -26],
+			"scale": [4, 4, 0.5]
+		},
+		"ground": {
+			"translation": [0, 30.5, 0],
+			"scale": [4, 4, 0.5]
+		},
+		"gui": {
+			"rotation": [180, 0, -90]
+		},
+		"head": {
+			"rotation": [-98, -66, 104],
+			"translation": [12.25, 17, 12],
+			"scale": [4, 4, 0.5]
+		},
+		"fixed": {
+			"rotation": [0, 0, 90],
+			"translation": [-23, 22.5, -1.5],
+			"scale": [4, 4, 1]
+		}
+	}
+}

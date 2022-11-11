@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/crafting_table",
+	"overrides": [
+		{"predicate": {"custom_model_data": 1}, "model": "world_swap:item/hcog"},
+		{"predicate": {"custom_model_data": 2}, "model": "world_swap:item/hcc"},
+		{"predicate": {"custom_model_data": 3}, "model": "world_swap:item/hcsg"}
+	]
+}
